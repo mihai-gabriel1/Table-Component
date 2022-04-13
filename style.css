@@ -11,4 +11,34 @@ body {
   font-family: "Inter" sans-serif;
   color: #343a40;
   line-height: 1;
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  width: 800px;
+  /* border: 2px solid grey; */
+  margin: 100px auto;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #087f5b;
+  color: white;
+  width: 25%;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: rgb(244, 238, 238);
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgb(226, 226, 226);
+}
+
+th,
+td {
+  /* border: 2px solid grey; */
+  padding: 16px 24px;
+  text-align: left;
 }
